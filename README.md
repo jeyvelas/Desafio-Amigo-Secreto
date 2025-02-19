@@ -10,7 +10,7 @@ Este proyecto es una aplicacion web sencilla que permite a los usuarios organiza
 
 ## Funcionalidades 
 
-### 1. Agragar nombres 
+### 1. Agregar nombres 
 - Los usuarios pueden escribir el nombre de un amigo en un campo de texto y agregarlo a la lista haciendo click en el botón **"Añadir"**.
 - Si el campo está vacio, el sistema muestra un mensaje de alerta pidiendo un nombre valido.
 
