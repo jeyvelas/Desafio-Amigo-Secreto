@@ -45,6 +45,14 @@ function sortearAmigo(){
     resultadoUl.innerHTML = `<li>${amigoSorteado}</li>`;
 
 }
+function nuevaLista() {
+    if (amigos.length !='') {
+    location.reload();
+    amigos.splice(0,amigos.length);
+    } else {
+        alert('La lista se encuentra vacia.');
+    }
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnAdicionar').addEventListener('click', agregarAmigos);
